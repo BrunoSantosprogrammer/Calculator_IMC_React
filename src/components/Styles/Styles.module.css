@@ -1,0 +1,66 @@
+.container {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--corFundo);
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+h1 {
+    padding: 10px;
+}
+
+label {
+    font-size: 24px;
+    padding: 10px;
+}
+
+.peso {
+    padding-right: 18px;
+}
+
+input {
+    width: 190px;
+    border: 2px solid transparent;
+    height: 20px;
+}
+
+input:hover {
+    border: 2px solid var(--corRed);
+}
+
+.btn {
+    width: 270px;
+    margin: 10px;
+    padding: 8px;
+    border: 2px solid var(--corBlue);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--corBlue);
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 2px solid var(--corRed);
+    color: var(--corRed);
+    
+}
+
+.resultado {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.tabela {
+    padding-bottom: 20px;
+}
+
+.tabela td{
+    background-color: var(--corWhite);
+    padding: 2px;
+    border: 1px solid var(--corblack);
+}
